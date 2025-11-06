@@ -1,0 +1,19 @@
+# Entornos virtuales (todas las variantes y en subcarpetas)
+.venv/
+venv/
+env/
+ENV/
+_venv/
+**/.venv/**
+**/venv/**
+**/env/**
+**/_venv/**
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/lab/workspaces/
+
+# Datos y salidas
+mnt/data/**
+!mnt/data/.gitkeep
+**/fase1_outputs/**

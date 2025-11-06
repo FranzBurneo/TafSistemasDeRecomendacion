@@ -1,0 +1,9 @@
+# 1) Crear entorno
+python -m venv .venv
+.venv\Scripts\activate
+
+# 2) Instalación base (versiones compatibles)
+pip install "numpy==2.2.2" "scipy==1.14.1" "pandas>=2.2" "matplotlib>=3.8" "scikit-learn>=1.5" notebook ipykernel
+
+# (para la Fase 2)
+pip install scikit-surprise==1.1.4
